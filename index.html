@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="RU">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Веб-дизайн, разработка и продвижение на заказ">
+    <meta name="author" content="Dmitry Konnov">
+
+    <title>Дмитрий Коннов - Веб-дизайн, разработка и продвижение</title>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+        
+    <!-- WOW JS -->
+	  <link rel="stylesheet" type="text/css" href="css/animate.css">
+	  <script src="js/wow.min.js"></script>
+	  <script>
+		  new WOW().init();
+	  </script>
+	
+	  <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Основной CSS -->
+    <link href="css/dmitry.css" rel="stylesheet">
+
+    <!-- Шрифты -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link href="fontawesome5/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+	
+
+	  <!-- Parallax Effect -->
+	  <script src="js/parallax.js">$('.parallax-window').parallax({imageSrc: '../img/header-bg.jpg'});</script>
+    <script src="js/parallax.js">$('.parallax-window').parallax({imageSrc: '../img/bottom-bg.jpg'});</script>
+    
+    <!-- Слайдер -->
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+    <!-- Плавная прокрутка -->
+    <script type="text/javascript">
+      $(function(){
+        $("a[href^='#']").click(function(){
+          var _href = $(this).attr("href");
+            $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+            return false;
+          });
+      });
+    </script>
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-fixed-top navbar-default">
+        <div class="container ">
+            <div class="navbar-translate ">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle x collapsed" data-toggle="collapse" data-target="#navbar-collapse-x">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse-x">
+                
+                <ul class="nav navbar-nav">
+                  <li class="nav-item"><a class="nav-link animated fadeInLeft" href="#about">Обо мне</a></li>
+          				<li class="nav-item"><a class="nav-link animated fadeInLeft delay-05s" href="#offer">ЧЕМ Я ЗАНИМАЮСЬ</a></li>
+          				<li class="nav-item"><a class="nav-link animated fadeInLeft delay-1s" href="#landing">ЗАЧЕМ ВАМ ЛЭНДИНГ</a></li>
+          				<li class="nav-item"><a class="nav-link animated fadeInLeft delay-15s" href="#stages">ЭТАПЫ РАБОТЫ</a></li>
+                  <li class="nav-item"><a class="nav-link animated fadeInLeft delay-2s" href="#portfolio">ПРИМЕРЫ РАБОТ</a></li>
+                </ul>
+              
+            </div>
+            </div>
+        </div>
+    </nav>
+
+  <!-- Header -->
+	<div id="about" class="parallax-window" data-parallax="scroll" data-image-src="img/header-bg.jpg">
+    <header>
+      <div class="container">
+        <div class="intro-text">
+          <div class="intro-lead-in"></div>
+        </div>
+      </div>
+    </header>
+  </div>
+    
+  <!-- Avatar & social buttons -->
+  <div class="main main-raised">
+    <div class="profile-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 ml-auto mr-auto">
+            <div class="profile">
+              <div class="avatarcenter">
+                <div class="wow fadeInDown" data-wow-duration="2s">
+                  <div class="avatar">
+                    <img src="img/dmitry.jpg" alt="Dmitry Konnov" class="img-raised rounded-circle img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="name wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s">
+                <h3 class="myName">Дмитрий Коннов</h3>
+                <h6>Веб-дизайн, разработка и продвижение</h6><br>
+                <a class="btn btn-just-icon btn-link btn-facebook wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s" href="https://www.facebook.com/dkonnov" target=new>
+                  <i class="fab fa-facebook-square"></i>        
+                  <div class="ripple-container"></div>
+                </a>
+                <a class="btn btn-just-icon btn-link btn-instagram wow fadeInUp" data-wow-duration="2s" data-wow-delay="2s"  href="https://www.instagram.com/d_konnov/"  target=new>
+                  <i class="fab fa-instagram"></i>
+                  <div class="ripple-container"></div>
+                </a>
+                <a class="btn btn-just-icon btn-link btn-whatsapp wow fadeInUp" data-wow-duration="2s" data-wow-delay="3s" href="https://api.whatsapp.com/send?phone=89622855639">
+                  <i class="fab fa-whatsapp"></i>
+                  <div class="ripple-container"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="description text-center"><br>
+          <p><i>Привет! Я специализируюсь на создании посадочных страниц (лэндингов) и web-приложений. Если Вам понравилась то что яделаю и вам нужно что-то подобное, то сообщите мне об этом любым удобным для вас способом!</i></p><br>
+        </div>
+    </div>
+
+        <section id="offer" class="bg-light-gray wow fadeIn" data-wow-duration="2s" style="padding-top: 50px; padding-bottom: 100px;">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 text-center">
+                <h3 class="section-heading wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s" >Чем я занимаюсь</h3><br><br>
+              </div>
+            </div>
+          
+          <div class="col-md-4">
+            <div class="info animated fadeInUp delay-1s">
+              <div class="icon color-blue">
+                <i class="far fa-desktop"></i>
+              </div>
+              <div class="description">
+                <h4 class="info-title">Лэндинги и сайты</h4>
+                <p>Лэндинги и сайты, от простых до сложных, с привлекательным дизайном, которые будет удовлетворять поставленным задачам. Использую технологии Bootstrap, CCS3, JS, а также CMS Wordpress, Opencart, Drupal.                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="info animated fadeInUp delay-2s">
+              <div class="icon color-green">
+                <i class="far fa-browser"></i>
+              </div>
+              <div class="description">
+                <h4 class="info-title">Web-приложения</h4>
+                <p>Приложения, которые открываются в любом браузере, как на компьютере, так и на телефоне. Разрабатываю при помощи JS, ExtJS, Perl, PHP. Помогут оперативно предоставить сотрудникам и клиентам информацию из ваших баз данных, организовать взаимодействие, прием заявок и многое другое.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="info animated fadeInUp delay-3s">
+              <div class="icon color-red">
+                <i class="far fa-chart-line "></i>
+              </div>
+              <div class="description">
+                <h4 class="info-title">Продвижение</h4>
+                <p>Для выполнения этой задачи проводится SEO, готовиться уникальный контент, запускается реклама, добавляется функционал на сайт. Для интернет-магазинов проводится оптимизация каталога, выгрузка товаров для работы на таких площадках как Яндекс.Маркет, Google Merchant, ВКонтакте, Facebook.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>     
+    
+    </section>
+	<!-- 
+    <section id="fitdev" class="bg-light-gold" style="padding-top: 50px; padding-bottom: 100px;">-->
+        <div id="landing" class="bg-light-gold section section-cards wow fadeIn" data-wow-duration="2s">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-7">
+                  <div class="image-container-first wow fadeInLeft" data-wow-duration="4s" data-wow-delay="1s"">
+                    <div class="image-container">
+                      <img class="img-cards-test" src="cards-test.png">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-5 ml-auto">
+                  <div class="section-description wow fadeIn" data-wow-duration="3s" data-wow-delay="1s">
+                    <div class="info info-horizontal" >
+                      <h3 class="title">Зачем вам Лэндинг</h3>
+                      <h6 class="description">Коротко и по делу</h6>
+                    </div>
+                    <div class="info info-horizontal">
+                      <div class="icon color-green">
+                          <i class="material-icons">important_devices</i>
+                      </div>
+                      <div class="description">
+                          <h4 class="info-title">Это первый шаг интернет-маркетинга</h4>
+                          <p>Для того, чтобы познакомить потенциальных клиентов с вашим товаром или услугой, нужна площадка, где вы подробно все расскажете и покажете. Поэтому, начать продвижение в сети нужно с создания посадочной страницы.</p>
+                      </div>
+                    </div>
+                    
+                    <div class="info info-horizontal">
+                      <div class="icon color-green">
+                        <i class="material-icons">accessibility_new</i>
+                      </div>
+                      <div class="description">
+                        <h4 class="info-title">Это эффективно и не дорого</h4>
+                        <p>Не всем бизнесам, а тем более людям, нужен полноценный сайт или интернет-магазин. Намного эффективней иметь адаптивный одностраничный сайт, который будет сверстан как журнальная страница. Причем эта страница будет одинаково приятно смотреться как на большом мониторе, так и смартфоне.</p>
+                      </div>
+                    </div>
+                    
+                    <div class="info info-horizontal">
+                      <div class="icon color-green">
+                        <i class="material-icons">add_shopping_cart</i>
+                      </div>
+                      <div class="description">
+                        <h4 class="info-title">Повышает доверие и продажи</h4>
+                        <p>Лэндинг повысит доверие к вам, увеличит лояльность, а значит и конверсию.</p>
+                      </div>
+                    </div>
+
+                    <div class="info info-horizontal">
+                      <div class="icon color-green">
+                        <i class="material-icons">directions_run</i>
+                      </div>
+                      <div class="description">
+                        <h4 class="info-title">Делает вас на шаг впереди</h4>
+                        <p>Если у ваших конкурентов еще нет сайта, а только страницы в социальных сетях, то это простой способ выйти вперед.</p>
+                      </div>
+                    </div>        
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  <!--  </section>-->
+    <!-- Этапы работы -->
+    <section id="stages" class="bg-light-gray" style="padding-top: 50px; padding-bottom: 100px;">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <div class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s">
+              <h3 class="section-heading">Этапы работы</h3><br><br>
+            </div>
+          </div>
+          </div>
+          <div class="row">
+            <div class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s">
+              <div class="col-md-4 md-margin-bottom-30">
+                <div class="info info-horizontal">
+                  <div class="icon icon-rose">
+                    <i class="material-icons">how_to_reg</i>
+                  </div>
+                  <div class="description">
+                    <h4 class="info-title">1. Консультация</h4>
+                    <p>На данном этапе мы с вами обговорим все детали бедующего проекта. Если вы не знаете как лучше сделать сайт, как его запустить, что от него ожидать и как его использовать, то я отвечу на все ваши вопросы. Мы обговорим сроки и стоимость работ.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+                  
+            <div class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="2s">
+              <div class="col-md-4 md-margin-bottom-30">
+                <div class="info info-horizontal">
+                  <div class="icon icon-rose">
+                    <i class="material-icons">gesture</i>
+                  </div>
+                  <div class="description">
+                    <h4 class="info-title">2. Дизайн</h4>
+                    <p>Будет разработан адаптивный сайт по вашим требованиям. После вашей оценки будут внесены коррективы. Материалы в электронном виде для данного этапа предоставляет заказчик (логотип, фотографии, имеющиеся тексты).</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+                  
+            <div class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="3s">
+              <div class="col-md-4 md-margin-bottom-30">
+                <div class="info info-horizontal">
+                  <div class="icon icon-rose">
+                    <i class="material-icons">done</i>
+                  </div>
+                  <div class="description">
+                    <h4 class="info-title">3. Запуск</h4>
+                    <p>Совместно с вами мы выберем имя для сайта. Далее сайт будет размещен по выбранному адресу, подключены сервисы статистики, почты, общения с клиентами. Ваш сайт будет поддерживаться и дорабатываться бесплатно в течении месяца после запуска. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+  </section>    
+  <!-- Примеры работ -->
+  <section id="portfolio" style="padding-top: 50px; padding-bottom: 100px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <div class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s">
+            <h3 class="section-heading">Примеры работ</h3><br><br><br>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card card-plain">
+            <a href="http://smarttoys-dv.ru/" target="_blank">
+            <div class="card-header card-header-image">
+              <div class="card-header-image-bg"></div>
+              <img src="items/works/smarttoys.png">
+              <div class="colored-shadow" style='background-image: url("items/works/smarttoys.png"); opacity: 1;'></div>
+            </div>
+            </a>
+          <div class="card-body">
+            <a href="http://smarttoys-dv.ru/" target="_blank">
+              <h4 class="card-title">smarttoys-dv.ru</h4>
+            </a>
+            <h6 class="card-category">Интернет-магазин</h6>
+            <p class="card-description">
+              Магазин разработан на OpenCart в современном минималистичном дизайне. Имеет мобильную версию, выгрузку товаров для продажи Маркет.Яндекс и Google Merchant, микроразметку. Проведена SEO подготовка, а также настроена связь со складкой базой.
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-4">
+        <div class="card card-plain">
+          <a href="http://purenlatex.ru/" target="_blank">
+          <div class="card-header card-header-image">
+            <div class="card-header-image-bg"></div>
+              <img src="items/works/purenlatex.png">
+              <div class="colored-shadow" style='background-image: url("items/works/purenlatex.png"); opacity: 1;'></div></div>
+          </a>
+          <div class="card-body">
+            <a href="http://purenlatex.ru/" target="_blank"></a>
+              <h4 class="card-title">purenlatex.ru</h4>
+            </a>
+            <h6 class="card-category">Лэндинг</h6>
+            <p class="card-description">
+              Сайт по продаже латексных подушек, выполненный в виде одностраничного сайта. То, что нужно для начала продаж. Адаптирован под любое устройство. Использован Bootstrap.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card card-plain">
+                        <a href="http://creative.dkonnov.ru/" target="_blank">
+                          <div class="card-header card-header-image">
+                              <div class="card-header-image-bg"></div>
+                            <img src="items/works/creative.png">
+                          <div class="colored-shadow" style='background-image: url("items/works/creative.png"); opacity: 1;'></div></div>
+                        </a>
+                        <div class="card-body ">
+                          <a href="http://creative.dkonnov.ru/" target="_blank">
+                            <h4 class="card-title">creative soft</h4>
+                          </a>
+                          <h6 class="card-category">Сайт организации</h6>
+                          <p class="card-description">
+                            Сайт программного обеспечения TaskServer от Creatice-Soft. Разработан на Drupal.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+  <div class="pricing-5 bg-section-gray" style="padding-top: 50px; padding-bottom: 100px;">
+    <div class="container">
+            <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s">
+                            <h3 class="section-heading">Стоимость Лэндинга</h3>
+                        </div>
+                    </div>
+        </div>
+      <div class="row">
+            <div class="horizontal-scroll-price">
+  
+        <div class="col-md-3">
+            <div class="card card-pricing card-plain">
+                <div class="card-body">
+                    <h6 class="card-category-hide">.</h6>
+                    <h1 class="card-title-hide">.</h1>
+                    <ul>
+                        <li>Создание лэндинга</li>
+                        <li>Мобильная версия</li>
+                        <li>Социальные ссылки</li>
+                        <li>Колличество блоков</li>
+                        <li>Домен RU и место под сайт</li>
+                        <li>Почта с адресом сайта</li>
+                        <li>Регистрация в поисковиках</li>
+                        <li>Форма связи</li>
+                        <li>Сервис общения с клиентами</li>
+                        <li>Подключение статистики</li>
+                        <li>Колличество доработок</li>
+                        <li>Продление работы сайта</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="col-md-3">
+                <div class="card card-pricing card-plain">
+                  <div class="card-body ">
+                    <h6 class="card-category">Стартовый</h6>
+                    <h1 class="card-title">5200</h1>
+                    <ul>
+                            <li><i class="fa fa-check"></i></li>
+                            <li><i class="fa fa-check"></i></li>
+                            <li><i class="fa fa-check"></i></li>
+                            <li>до <b>3</b></li>
+                            <li><i class="fa fa-minus"></i></li>
+                            <li><i class="fa fa-minus"></i></li>
+                            <li><i class="fa fa-minus"></i></li>
+                            <li><i class="fa fa-minus"></i></li>
+                            <li><i class="fa fa-minus"></i></li>
+                            <li><i class="fa fa-minus"></i></li>
+                            <li>до <b>2</b></li>
+                            <li><b>400 р</b> / год</li>
+                          </ul>
+                  </div>
+                </div>
+              </div>
+
+        <div class="col-md-3">
+            <div class="row">
+                <div class="card card-pricing card-raised">
+                    <div class="card-body ">
+                      <h6 class="card-category">Оптимальный</h6>
+                      <h1 class="card-title">7500</h1>
+                      <ul>
+                        <li><i class="fa fa-check"></i></li>
+                        <li><i class="fa fa-check"></i></li>
+                        <li><i class="fa fa-check"></i></li>
+                        <li>до <b>5</b></li>
+                        <li><i class="fa fa-check"></i></li>
+                        <li><i class="fa fa-minus"></i></li>
+                        <li><i class="fa fa-check"></i></li>
+                        <li><i class="fa fa-minus"></i></li>
+                        <li><i class="fa fa-check"></i></li>
+                        <li><i class="fa fa-check"></i></li>
+                        <li>до <b>5</b></li>
+                        <li><b>600 р</b> / год</li>
+                      </ul>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card card-pricing card-plain">
+                <div class="card-body ">
+                    <h6 class="card-category">Бизнес</h6>
+                    <h1 class="card-title">12000</h1>
+                    <ul>
+                        <li><i class="fa fa-check"></i></li>
+                        <li><i class="fa fa-check"></i></li>
+                        <li><i class="fa fa-check"></i></li>
+                        <li>до <b>9</b></li>
+                        <li><i class="fa fa-check"></i></li>
+                        <li><i class="fa fa-check"></i></li>
+                        <li><i class="fa fa-check"></i></li>
+                        <li><i class="fa fa-check"></i></li>
+                        <li><i class="fa fa-check"></i></li>
+                        <li><i class="fa fa-check"></i></li>
+                        <li>до <b>7</b></li>
+                        <li><b>600 р</b> / год</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+    if($(window).width() < 768) {
+                $('.horizontal-scroll-price').slick({
+                arrows: false,
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                autoplay: true,
+                fade: false,
+                speed: 2000,
+                autoplaySpeed: 2000
+    });
+}
+
+  
+    </script>
+	<!-- Умный дом 
+    <section id="homedev" style="height: 660px; padding-top: 50px; padding-bottom: 100px;">
+        <div class="col-md-1"></div>
+        <div class="col-md-5">
+        <div class="card card-contact">
+            <form id="contact-form" method="post">
+              <div class="card-header card-header-raised card-header-primary text-center">
+                <h4 class="card-title">Contact Us</h4>
+              </div>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group label-floating is-empty bmd-form-group">
+
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group label-floating is-empty bmd-form-group">
+ 
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group label-floating is-empty bmd-form-group">
+
+                </div>
+                <div class="form-group label-floating is-empty bmd-form-group">
+
+                </div>
+              </div>
+              <div class="card-footer justify-content-between">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" value=""> I'm not a robot
+                    <span class="form-check-sign">
+                      <span class="check"></span>
+                    </span>
+                  </label>
+                </div>
+                <button class="btn btn-primary pull-right" type="submit">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A4bb81ea14901542c418a9206c7b55bcfbcf3c09096b5b91462ec8c0a76bdbef9&amp;source=constructor" aria-hidden="true" src="about:blank" frameborder="0" style="border: medium; border-image: none; left: 0px; top: 0px; width: 100%; height: 100%; z-index: -1;">123</iframe>
+        <div class="col-md-1"></div>
+    </section>
+
+    -->
+     	
+        
+    
+
+    <!-- Цены 
+    <section class="pricing py-5"  style="padding-top: 50px; padding-bottom: 100px;">
+    <div class="container">
+    <div class="row">
+            <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s">
+                            <h3 class="section-heading">Стоимость</h3>
+                        </div>
+                        <div class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="2s">
+                            <h3 class="section-subheading text-muted">Цены на слуги очень приемлемые. Они Вам обязательно понравятся.</h3>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4">
+                    <div class="card mb-5 mb-lg-0">
+                        <div class="card-body">
+                            <h5 class="card-title text-muted text-uppercase text-center">Лэндинг</h5>
+                            <h6 class="card-price text-center">7500<span class="period">рублей.</span></h6>
+                            <hr>
+                            <ul class="fa-ul">
+                                <li><span class="fa-li"><i class="fa fa-check"></i></span>Создание адаптивного сайта</li>
+                                <li><span class="fa-li"><i class="fa fa-check"></i></span>Домен в зоне RU и место под сайт</li>
+                                <li><span class="fa-li"><i class="fa fa-check"></i></span>Почта с адресом вашего сайта</li>
+                                <li><span class="fa-li"><i class="fa fa-check"></i></span>Регистрация сайта в поисковых системах</li>
+                                <li><span class="fa-li"><i class="fa fa-check"></i></span>Подключение сервиса мгновенного общения с посетителями</li>
+                                <li><span class="fa-li"><i class="fa fa-check"></i></span>Подключение статистики</li>
+                                <li><span class="fa-li"><i class="fa fa-check"></i></span>SEO оптимизация сайта</li>
+                                <li><span class="fa-li"><i class="fa fa-check"></i></span>Изменение сайта в течении месяца</li>
+                            </ul>
+                            <a href="#" class="btn btn-block btn-primary text-uppercase">Заказать</a>
+                                </div>
+                              </div>
+                            </div>
+                
+      <div class="col-lg-4">
+        <div class="card mb-5 mb-lg-0">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">Опции для сайта</h5>
+            <hr>
+            <ul class="fa-ul">
+            <li><span class="fa-li"><i class="fa fa-plus"></i></span>Продление работы сайта на один год - 550р.</li>
+            <li><span class="fa-li"><i class="fa fa-plus"></i></span>Написание статьи для сайта - 400р.</li>
+            <li><span class="fa-li"><i class="fa fa-plus"></i></span>Внесение текстовых изменений на сайт - 300р</li>
+            <li><span class="fa-li"><i class="fa fa-plus"></i></span>Фотосессия товаров - 1200р./час</li>
+            <li><span class="fa-li"><i class="fa fa-plus"></i></span>Продление работы сайта на один год - 350р.</li>
+            <li><span class="fa-li"><i class="fa fa-plus"></i></span>Внесение изменения на сайт - 300р</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+       
+       <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title text-muted text-uppercase text-center">Дополнительные услуги</h3>
+            <hr>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fa fa-check"></i></span>Поддержка существующего сайта - от 2500р/месяц</li>
+              <li><span class="fa-li"><i class="fa fa-check"></i></span>Доработка существующего сайта - 500р./час</li>
+              <li><span class="fa-li"><i class="fa fa-check"></i></span>Разработка дополнительно функционала для сайта - 500р./час</li>
+              <li><span class="fa-li"><i class="fa fa-check"></i></span>Разработка Web-приложения - 500р./час</li>
+              <li><span class="fa-li"><i class="fa fa-check"></i></span>Разработка флаера, визитки - 500р</li>              
+            </ul>
+            <a href="#" class="btn btn-block btn-primary text-uppercase">Заказать</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    -->
+    <footer></footer>
+    </div>
+   <br><br><br>
+</div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
+
+    <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
+    <script src="js/material-kit.js?v=2.0.5" type="text/javascript"></script>
+    
+</body>
+
+</html>
